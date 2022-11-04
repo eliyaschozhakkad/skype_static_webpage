@@ -1,0 +1,228 @@
+.main-body {
+  height: 1000px;
+}
+body {
+  margin: 0;
+}
+.main-header {
+  height: 60px;
+}
+.logo-header {
+  height: 60px;
+  float: left;
+  margin-top: 15px;
+}
+
+.logo img {
+  height: 50px;
+  float: left;
+}
+
+.vertical-border {
+  border-left: 3px solid black;
+  height: 41px;
+  float: left;
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.skype-text {
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #262626;
+  text-decoration: none;
+}
+.middle-header {
+  padding: 9px;
+  width: 50%;
+  float: left;
+}
+.middle-header a {
+  color: #262626;
+}
+ul {
+  list-style-type: none;
+}
+.middle-header a {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px;
+}
+.middle-header a:hover {
+  border-bottom: 2px solid black;
+}
+.middle-header a:active {
+  border: 2px dotted black;
+}
+
+li {
+  display: inline;
+  float: left;
+}
+.select {
+  margin: 4px;
+}
+.right-header {
+  height: 30px;
+  float: right;
+  padding-right: 20px;
+}
+.right-header a {
+  height: 60px;
+  float: right;
+  padding-right: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+.right-header a:hover {
+  border-bottom: 1px solid black;
+}
+.right-header a:active {
+  border: 2px dotted black;
+  border-radius: 10px;
+}
+.right-head {
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.inner-middle {
+  background-color: #f2f2f2;
+  height: 600px;
+  border-radius: 75px;
+  margin-right: 50px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+.left-body {
+  width: 50%;
+  height: 600px;
+  float: left;
+}
+.right-body {
+  width: 50%;
+  height: 600px;
+  float: left;
+}
+.left-inner {
+  width: 70%;
+  height: 400px;
+  margin: 70px;
+}
+.right-inner {
+  width: 70%;
+  height: 400px;
+  margin: 70px;
+}
+.heading1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #2b2c33;
+  font-size: 40px;
+}
+.heading2 {
+  margin: 0;
+  font-size: 72px;
+  background: linear-gradient(90deg, #0078d4, #c218ec);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.para1 {
+  font-size: large;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.skypebtn {
+  border-color: #0078ca;
+  border-radius: 10px;
+  background-color: #0078ca;
+  height: 60px;
+  width: 250px;
+  font-size: 16px;
+}
+
+.skypebtn:hover {
+  background-color: #04619f;
+}
+.skypebtn:active {
+  background-color: black;
+  color: white;
+}
+.skypebtn a {
+  text-decoration: none;
+}
+.downloadtext {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #0078ca;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.right-pic {
+  width: 100%;
+  height: 100%;
+}
+.discover {
+  display: block;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: #2b2c33;
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+.bottom-box {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+.bottom-side {
+  background-color: #f2f2f2;
+  height: 500px;
+  margin: 0 10px;
+  padding: 10px;
+  align-self: center;
+  border-radius: 0 30px 30px 30px;
+  width: 300px;
+}
+.bottom-side img {
+  height: 180px;
+  width: 100%;
+}
+.bottom-side h3 {
+  text-align: center;
+  vertical-align: middle;
+
+  color: #2b2c33;
+  font-size: 18px;
+  width: 230px;
+}
+.bottom-side p {
+  text-align: center;
+  color: #2b2c33;
+  font-size: 18px;
+  width: 230px;
+}
+.footer {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: #262626;
+}
+
+.footer a {
+  color: white;
+  font-size: 20px;
+}
